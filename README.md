@@ -1,11 +1,11 @@
 # 在 Taro 项目里使用 WeCOS
 
-> [WeCOS](https://github.com/tencentyun/wecos)工具 \
+> [WeCOS 在这](https://github.com/tencentyun/wecos). \
 > 这个仓库类似 [wepy-wecos](https://github.com/shrekuu/wepy-wecos-demo), 是 Taro 版而已. \
 > 由于小程序限制, `tabbar` 里的图片只能放在本地. \
 > 先准备好对象存储 `bucket`, 然后克隆此项目开始.
 
-![示例图片](screenshot.png)
+<img width="375px" src="screenshot.png" title="示例截图" />
 
 ---
 
@@ -28,7 +28,7 @@
     ```
 
 - 其它类型文件一样, 放到 `cos/upload` 上传即可, 会自动在 `cos/static` 里备份.
-- 在 txs 里的效果:
+- 在[编译过程](config/index.js#L33)中替换了一下图片 url, 目前就这些写法, 你可以扩展一下, 效果如下:
     
     ```tsx
     // 输入
@@ -46,7 +46,7 @@
     background-image: url(https://example-1304087913.cos.ap-nanjing.myqcloud.com/taro-wecos-demo/static/images/jugaogao.jpg#1651577568164)
     ```
 
-- **你会发现写图片地址时编辑器会有自动提示, 这当然是极好的. 🥳🎉 酥服~**
+- **你会发现写图片 url 时编辑器会有自动提示, 这当然是极好的. 🥳🎉 酥服~**
 
 
 
