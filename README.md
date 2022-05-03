@@ -1,4 +1,4 @@
-# 在 Taro 项目里使用 WeCOS 将 "所有" 图片放在腾讯对象存储里
+# 在 Taro 项目里使用 WeCOS
 
 > [WeCOS](https://github.com/tencentyun/wecos)工具 \
 > 这个仓库类似 [wepy-wecos](https://github.com/shrekuu/wepy-wecos-demo), 是 Taro 版而已. \
