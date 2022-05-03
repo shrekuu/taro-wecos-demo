@@ -1,4 +1,4 @@
-# 在 Taro 项目里使用 WeCOS
+# 在 Taro 项目里使用 WeCOS 的示例
 
 > [WeCOS 在这](https://github.com/tencentyun/wecos). \
 > 这个仓库类似 [wepy-wecos](https://github.com/shrekuu/wepy-wecos-demo), 是 Taro 版而已. \
