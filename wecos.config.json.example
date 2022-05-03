@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://example-1304087913.cos.ap-nanjing.myqcloud.com/taro-wecos-demo",
+  "appDir": "./cos/upload",
+  "backupDir": "./cos/static",
+  "uploadFileSuffix": [".jpg", ".png", ".gif", ".woff", ".svg", ".json"],
+  "cos": {
+    "secret_id": "^_^ 填写 secret id",
+    "secret_key": "^_^ 填写 secret key",
+    "bucket": "example-1304087913",
+    "region": "ap-nanjing",
+    "folder": "taro-wecos-demo/static"
+  }
+}
